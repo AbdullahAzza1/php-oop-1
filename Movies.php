@@ -8,7 +8,7 @@ class Movies
 
     public function getFullMovies()
     {
-        $result = $this->LengthOfMovie . ", " . $this->Director . " - " . $this->WrittenBy . " (" . $this->Type . ")";
+        $result = $this->LengthOfMovie . ", " . $this->Director . " - " . $this->WrittenBy . " (" . $this->Type     . ")";
         return $result;
     }
 }
