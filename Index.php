@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<?php
+require __DIR__ . '/php-opp-01/Movies.php';
 
-<body>
+$ind_movies = new Movies();
 
-</body>
+$ind_movies->LengthOfMovie = "via roma";
+$ind_movies->Director = "123";
+$ind_movies->WrittenBy = "80100";
+$ind_movies->Type = "salerno";
 
-</html>
+var_dump($ind_movies);
